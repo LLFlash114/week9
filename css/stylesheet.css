@@ -1,0 +1,53 @@
+body {
+    background-color: peachpuff;
+    
+    
+}
+
+nav {
+    border-style: solid;
+    border-color: orange;
+    border-width: 3px;
+    display: inline-flex;
+    justify-content: space-between;
+   
+    
+    
+}
+
+@media  screen and (min-width:600px){
+
+    nav {
+        flex-direction: column;
+        padding-left: 45px;
+        padding: 0 45 px;
+        padding-right: 45px;
+        align-items: center;
+
+    }
+    body {
+        display: flex;
+        gap: 15px;
+        
+    }
+
+    nav{
+
+    }
+}
+
+
+
+
+/* @media screen and (min-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media  screen and (min-width: 800px) {
+    body {
+        background-color: green;
+    }
+} */
+
